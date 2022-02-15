@@ -1,0 +1,16 @@
+{
+  "name": "script",
+  "license": "MIT",
+  "devDependencies": {
+    "prisma": "3.7.0"
+  },
+  "scripts": {
+    "start": "node --max_old_space_size=4096 ./script.js"
+  },
+  "dependencies": {
+    "@prisma/client": "3.7.0"
+  },
+  "engines": {
+    "node": ">=12.2.0"
+  }
+}
